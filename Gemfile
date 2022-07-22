@@ -14,7 +14,7 @@ gem "paperclip"
 gem "aws-sdk", "< 2.0"
 
 gem "jquery-rails"
-gem "sass-rails", "~> 5.0"
+gem "sass-rails", "~> 5.0", ">= 5.0.4"
 gem "uglifier"
 gem "bootstrap-sass"
 gem "font-awesome-sass"
