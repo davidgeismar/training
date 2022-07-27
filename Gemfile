@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 ruby "2.2.0"
 
-gem "rails", "4.2.0"
+gem "rails", "5.2.8.1"
 gem "pg"
 gem "figaro"
 gem "simple_form"
@@ -25,7 +25,7 @@ gem "devise-i18n-views"
 
 group :development, :test do
   gem "spring"
-  gem "annotate"
+  gem "annotate", ">= 2.7.0"
   gem "binding_of_caller"
   gem "better_errors"
   gem "quiet_assets"
