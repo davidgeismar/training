@@ -19,7 +19,7 @@ gem "uglifier"
 gem "bootstrap-sass"
 gem "font-awesome-sass"
 
-gem "rails-i18n"
+gem "rails-i18n", ">= 8.0.0"
 gem "devise-i18n"
 gem "devise-i18n-views"
 
